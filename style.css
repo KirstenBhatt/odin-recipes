@@ -38,3 +38,13 @@
 .image{
     text-align: center;
 }
+#title{
+    text-align: center;
+    text-decoration-line: underline;
+}
+.in{
+    text-decoration-line: underline;
+}
+.read{
+    text-align: center;
+}
