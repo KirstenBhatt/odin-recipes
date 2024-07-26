@@ -1,6 +1,40 @@
-*{
+/*Index StyleSheet*/
+
+#header{
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(240, 240, 195);
-    color: rgb(40, 88, 50);
+    color: rgb(75, 102, 0);
+    font-size:  75px;
+}
+#intro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 102, 0);
+    font-size: 22px;
+    font-weight: bolder;
+}
+#links{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 102, 0);
+    font-weight: bold;
+    font-size: 18px;    
+}
+*{
+    background-color:rgb(250, 239, 192);
+}
+
+/* Aloo Posto StyleSheet*/
+
+#body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(59, 80, 2);
+    font-weight: bold;
+}
+#header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 102, 0);
+    font-size:  65px;
+}
+.image{
     text-align: center;
 }
