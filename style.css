@@ -80,3 +80,33 @@
 .list{
     color: rgb(40, 54, 1);  
 }
+
+/* Chicken Nuggets */
+
+.text{
+    color: rgb(58, 78, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#DINO{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:  65px;
+}
+#dinoimg{
+    text-align: center;
+}
+#recipeDino{
+    text-align: center;
+    text-decoration-line: underline;
+}
+#dinoheader{
+    text-align:center;
+}
+.nuggets{
+    text-decoration-line: underline;
+}
+.chicken{
+    text-align: center;
+    font-weight: bold;
+}
