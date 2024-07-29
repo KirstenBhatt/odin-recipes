@@ -13,11 +13,29 @@
     font-weight: bolder;
     text-align: center;
 }
-#links{
+.button{
+    background-color: rgb(75, 102, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(75, 102, 0);
+    color:rgb(250, 239, 192);
     font-weight: bold;
     font-size: 18px;  
+    text-align: center;
+    display:flexbox;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    margin-left: 150px; 
+    border-radius: 4px; 
+    border: none;
+}
+.button:hover{
+    background-color:rgb(188, 212, 122)
+
+}
+#a{
+    margin-left:250px;
+}
+#b{
+    margin-left:230px;
 }
 *{
     background-color:rgb(250, 239, 192);
