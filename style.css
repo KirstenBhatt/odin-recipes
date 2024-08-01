@@ -1,12 +1,6 @@
 /*Index StyleSheet*/
 
 #header{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin:auto;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(75, 102, 0);
     font-size:  75px;
@@ -27,8 +21,6 @@
     text-align: center;
     padding: 10px 20px;
     margin-bottom: 8px;
-    margin-left:auto;
-    margin-top: auto;
     border-radius: 4px; 
     border: none;
     cursor:pointer;
@@ -38,23 +30,33 @@
     background-color:rgb(188, 212, 122)
 
 }
-#a{
-    margin-left:auto;
-}
-#b{
-    margin-left:auto;
-}
+
 *{
     background-color:rgb(250, 239, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(75, 102, 0);
 }
-#buttons{
-    display:flex;
-    flex-direction: column;
-    align-content: center;
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-wrap:wrap-reverse;
+    align-items: center;
+    align-content: center;
 
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
 /* Aloo Posto StyleSheet*/
 
 #body{
@@ -80,6 +82,14 @@
 }
 .read{
     text-align: center;
+}
+.mother{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* pollo */
