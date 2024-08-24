@@ -8,7 +8,7 @@
     1px -1px 0 darkgreen,
     -1px 1px 0 darkgreen,
     1px 1px 0 darkgreen;
--webkit-text-stroke: 0.5px black;
+-webkit-text-stroke: 1.5px black;
 }
 #intro{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,7 +21,7 @@
         1px -1px 0 darkgreen,
         -1px 1px 0 darkgreen,
         1px 1px 0 darkgreen;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 1.5px black;
 }
 .button{
     background-color: rgb(75, 102, 0);
@@ -33,8 +33,9 @@
     padding: 10px 20px;
     margin-bottom: 8px;
     border-radius: 4px; 
-    border: none;
+    border:rgb(75, 102, 0);
     cursor:pointer;
+
 
 }
 .button:hover{
@@ -57,7 +58,7 @@
     1px -1px 0 darkgreen,
     -1px 1px 0 darkgreen,
     1px 1px 0 darkgreen;
--webkit-text-stroke: 0.5px darkgreen;
+-webkit-text-stroke: 1.5px darkgreen;
 }
 
 .header{
@@ -79,13 +80,20 @@
     gap: 18px;
 }
 
-
+.textbox{
+    border-color: #006329;
+    box-shadow: 0 0 8px rgba(2, 76, 26, 0.6);
+    outline: none;
+    border: 2px solid #127029;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
 /* Aloo Posto StyleSheet*/
 
 #body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(59, 80, 2);
     font-weight: bold;
 }
 #header{
