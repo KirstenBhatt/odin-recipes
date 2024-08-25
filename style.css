@@ -1,30 +1,16 @@
 /*Index StyleSheet*/
 
-#header{
+
+.header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:  75px;
-    text-shadow: 
-    -1px -1px 0 darkgreen,  
-    1px -1px 0 darkgreen,
-    -1px 1px 0 darkgreen,
-    1px 1px 0 darkgreen;
--webkit-text-stroke: 1.5px black;
-}
-#intro{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(250, 239, 192);
-    font-size: 22px;
+    color:rgba(59, 81, 0, 0.951);
+    font-size: 50px;
     font-weight: bolder;
-    text-align: center;
-    text-shadow: 
-        -1px -1px 0 darkgreen,  
-        1px -1px 0 darkgreen,
-        -1px 1px 0 darkgreen,
-        1px 1px 0 darkgreen;
-    -webkit-text-stroke: 1.5px black;
+    text-align: center;   
 }
+
 .button{
-    background-color: rgb(75, 102, 0);
+    background-color: rgb(76, 102, 7);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(250, 239, 192);
     font-weight: bold;
@@ -35,30 +21,18 @@
     border-radius: 4px; 
     border:rgb(75, 102, 0);
     cursor:pointer;
-
-
 }
-.button:hover{
-    background-color:rgb(188, 212, 122)
+ .button:hover {
+    box-shadow: 0 0 15px yellowgreen;
+ }
 
-}
-
-*{
-    background-color:rgb(250, 239, 192);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(250, 239, 192);
-    font-weight: bold;
+.background{
+    background-color:rgba(219, 181, 10, 0.868);
     background-image: url('./images/cook.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    text-shadow: 
-    -1px -1px 0 darkgreen,  
-    1px -1px 0 darkgreen,
-    -1px 1px 0 darkgreen,
-    1px 1px 0 darkgreen;
--webkit-text-stroke: 1.5px darkgreen;
 }
 
 .header{
@@ -79,17 +53,23 @@
     align-content: center;
     gap: 18px;
 }
-
-.textbox{
-    border-color: #006329;
-    box-shadow: 0 0 8px rgba(2, 76, 26, 0.6);
-    outline: none;
-    border: 2px solid #127029;
+.textbox {
+    border: 2px solid rgb(76, 102, 7);;
     border-radius: 5px;
-    font-size: 16px;
-    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, box-shadbow 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.454);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width:auto;
+    padding: 150px;
 }
-
+.textbox:focus {
+    border-color: rgb(126, 166, 16);;
+    box-shadow: 0 0 5px rgba(0,123, 255, 0.5);
+}
 /* Aloo Posto StyleSheet*/
 
 #body{
