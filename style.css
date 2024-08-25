@@ -75,15 +75,25 @@
 #body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    background-color: beige;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
 }
 #header{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(250, 239, 192);
+    color:rgba(59, 81, 0, 0.951);
     font-size:  65px;
 }
 .image{
-    text-align: center;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    align-self: center;
 }
 #title{
     text-align: center;
@@ -91,9 +101,11 @@
 }
 .in{
     text-decoration-line: underline;
+    color:rgba(59, 81, 0, 0.951);
 }
 .read{
     text-align: center;
+    color:rgba(59, 81, 0, 0.951);
 }
 .mother{
     display: flex;
@@ -102,6 +114,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    color:rgba(59, 81, 0, 0.951);
 }
 
 #back{
@@ -113,7 +126,9 @@
    background-position: center;
    border: none;
    cursor: pointer;
-
+}
+#list{
+    color:rgba(59, 81, 0, 0.951);
 }
 #back:hover{
     color: rgba(0, 0, 0, 0.384);
