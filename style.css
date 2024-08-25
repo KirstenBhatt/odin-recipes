@@ -137,6 +137,9 @@
 
 
 /* pollo */
+.chicknrice {
+    background-color: beige;
+}
 .center{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -146,6 +149,10 @@
 #top{
     font-weight: bold;
     font-size: 65px;
+}
+
+.all {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #Father{
@@ -162,8 +169,18 @@
     align-content: center;
     color:rgba(59, 81, 0, 0.951);
     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Chicken Nuggets */
+
+.dino {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    align-self: center;
+
+}
 
 .text{
     color: rgb(58, 78, 2);
@@ -180,15 +197,24 @@
 }
 #recipeDino{
     text-align: center;
-    text-decoration-line: underline;
+    font-weight: bold;;
 }
 #dinoheader{
     text-align:center;
+    font-weight: bold;
 }
 .nuggets{
-    text-decoration-line: underline;
+    font-weight: bold;
 }
 .chicken{
     text-align: center;
+    font-weight: bold;
+}
+
+.frozen {
+    font-weight: bold;
+}
+
+.store {
     font-weight: bold;
 }
